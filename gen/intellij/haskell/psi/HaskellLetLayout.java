@@ -5,9 +5,9 @@ import org.jetbrains.annotations.NotNull;
 
 import java.util.List;
 
-public interface HaskellDataDeclarationDeriving extends HaskellCompositeElement {
+public interface HaskellLetLayout extends HaskellCompositeElement {
 
-  @NotNull
-  List<HaskellTtype> getTtypeList();
+    @NotNull
+    List<HaskellExpression> getExpressionList();
 
 }
